@@ -1,0 +1,10 @@
+.NavBar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.each_nav{
+    margin: 0.3rem;
+    font-size: 100x;
+}

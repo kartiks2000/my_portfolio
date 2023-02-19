@@ -1,0 +1,19 @@
+.photo_block {
+    /* background-color: rgb(218, 187, 125); */
+    /* width: 5rem;
+    height: 5rem; */
+    /* background-image: url('../assets/main_image1.jpeg'); */
+    margin: 10px;
+    padding: 20px;
+}
+
+.img_part {
+    width: 15rem;
+    height: 15rem;
+    border-radius: 200rem;
+    overflow: hidden;
+}
+
+.img_box {
+
+}
