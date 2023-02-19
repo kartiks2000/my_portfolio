@@ -2,7 +2,23 @@
   text-align: center;
 }
 
-.App-logo {
+.top_nav_flex {
+
+}
+
+.sec_heading {
+  color: green;
+  margin-top: 3rem;
+  font-weight: 400;
+}
+
+.sec_heading-2 {
+  color: green;
+  margin-top: 4.5rem;
+  font-weight: 400;
+}
+
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -26,13 +42,13 @@
 
 .App-link {
   color: #61dafb;
-}
+} */
 
-@keyframes App-logo-spin {
+/* @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
   }
-}
+} */

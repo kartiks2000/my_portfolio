@@ -1,5 +1,6 @@
 .each_skill {
    border: medium solid green;
+   border-width: 2px;
    padding-left: 1rem;
    padding-right: 1rem;
    margin: 0.7rem;

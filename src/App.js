@@ -16,6 +16,7 @@ function App() {
     {"name": "Lorem Ipsum", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.", "skills": ["Docker", "Python", "Linux"]},
     {"name": "Lorem Ipsum", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.", "skills": ["Docker", "Python", "Linux"]},
     {"name": "Lorem Ipsum", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.", "skills": ["Docker", "Python", "Linux"]},
+    {"name": "Lorem Ipsum", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.", "skills": ["Docker", "Python", "Linux"]},
   ]
 
   return (
@@ -25,7 +26,9 @@ function App() {
         <Top name="KARTIK SAXENA"></Top>
       </div>
       <PortfolioBody my_intro={my_intro}></PortfolioBody>
+      <h1 className='sec_heading'>SKILLS</h1>
       <SkillSection myskills={myskills}></SkillSection>
+      <h1 className='sec_heading-2'>PROJECTS</h1>
       <ProjectsSection myprojects={myprojects}></ProjectsSection>
       <Footer></Footer>
     </div>
