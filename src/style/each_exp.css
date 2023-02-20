@@ -1,0 +1,33 @@
+.each_exp_section {
+    border: medium solid grey;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 0.6rem;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    padding-bottom: 2.5rem;
+    flex-wrap: wrap;
+    overflow: hidden;
+    background-color: rgb(250, 239, 229);
+    border-radius: 10px;
+}
+
+.each_exp_section:hover {
+    background-color: rgb(245, 236, 225);
+    box-shadow: 10px 5px 5px rgb(177, 178, 173);
+}
+
+.exp_desg {
+    color:rgb(61, 143, 164);
+}
+
+.exp_comp {
+    font-size: 1.2rem;
+    color: rgb(17, 57, 68);
+    margin-bottom: 1.2rem;
+} 
+
+.exp_description {
+    color: rgb(8, 82, 57);
+}
+

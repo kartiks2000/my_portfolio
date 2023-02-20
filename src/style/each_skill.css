@@ -4,6 +4,13 @@
    padding-left: 1rem;
    padding-right: 1rem;
    margin: 0.7rem;
+   margin-top: 1rem;
+   border-radius: 5px;
+}
+
+.each_skill:hover {
+   background-color: rgb(245, 236, 225);
+   box-shadow: 10px 5px 5px rgb(178, 219, 235);;
 }
 
 .skill_name {

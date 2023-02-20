@@ -5,7 +5,8 @@ import Top from './components/top';
 import Nav from './components/nav';
 import PortfolioBody from './components/portfolio_body';
 import SkillSection from './components/skill_section';
-import ProjectsSection from './components/projects_section'
+import ProjectsSection from './components/projects_section';
+import ExpSection from './components/exp_section';
 
 
 function App() {
@@ -17,6 +18,12 @@ function App() {
     {"name": "Lorem Ipsum", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.", "skills": ["Docker", "Python", "Linux"]},
     {"name": "Lorem Ipsum", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.", "skills": ["Docker", "Python", "Linux"]},
     {"name": "Lorem Ipsum", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.", "skills": ["Docker", "Python", "Linux"]},
+  ]
+  var myexp = [
+    {"designation": "Software Engineer", "company": "Velocity", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.", "skills": ["Docker", "Python", "Linux"]},
+    {"designation": "SDE1", "company": "Shipmnts", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.", "skills": ["Docker", "Python", "Linux"]},
+    {"designation": "Product Engineer", "company": "Aditya Birla Group", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.", "skills": ["Docker", "Python", "Linux"]},
+    // {"designation": "Lorem Ipsum", "company": "ABCD", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.", "skills": ["Docker", "Python", "Linux"]},
   ]
 
   return (
@@ -30,6 +37,8 @@ function App() {
       <SkillSection myskills={myskills}></SkillSection>
       <h1 className='sec_heading-2'>PROJECTS</h1>
       <ProjectsSection myprojects={myprojects}></ProjectsSection>
+      <h1 className='sec_heading-3'>EXPERIENCES</h1>
+      <ExpSection myexp={myexp}></ExpSection>
       <Footer></Footer>
     </div>
   );
